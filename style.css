@@ -1,0 +1,501 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* -----------------------HEADER----------------------  */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu_list{
+    display: flex;
+}
+.menu_list > li{
+    list-style-type: none;
+    padding: 2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+}
+.btn{
+    background-color: #44226E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 8px 27px;
+    font-size: 1rem;
+}
+
+/* ------------------------main secction ----------------------- */
+.main{
+    background-color: #44226E;
+    width: 100%;
+    min-height: fit-content;
+    display: flex;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+
+}
+.heading > h1{
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 4rem;   
+    margin-bottom: 10px;
+}
+.heading >p{
+    color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5rem;
+}
+.btn_download{
+    color: #FFFFFF;
+    width: 65%;
+    padding: 15px 0px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FA8232 0%, #FFC637 100%);
+    font-size: 1.5rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.left_section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.right_section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right_section > img{
+    height: 80%;
+}
+/* -------------------------popuop image----------------------- */
+
+.popup {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.popup-content {
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+/* Style for the image */
+.popup-content img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style for the close button */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.count {
+    display: flex;
+    background-color: #FFC700;
+    justify-content: space-around;
+    align-items: center;
+}
+/* --------------------------Counter Secion----------------------- */
+.count_fileds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+.count_fileds > h1 {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.count_fileds > p{
+    color: #000000;
+    font-size: 1.3rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* -------------------------------- Get Loan Section --------------------- */
+.loan{
+    margin: 20px 0;
+}
+
+.loan > h1 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    text-align: center;
+
+}
+.flow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+}
+.flowpoints{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flowpoints > ol > li {
+    color: gray;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.flowpoints > ol > li > p {
+    color: gray;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+
+
+.flowpoints > ol > li:hover {
+    color: #44226E;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.flowpoints > ol > li > p:hover {
+    color: #000000;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 10px 0;
+}
+/* -------------------------------Why choose Us section ---------------------  */
+.whyus > h1 {
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.whyus{
+    margin-bottom: 7rem;
+}
+.testinomial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_section1{
+    width: 61%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: #44226E;
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    text-align: center;
+}
+.box > img{
+    position: relative;
+    top: -35px;
+}
+.right_section1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.elipse{
+    height: 17px;
+    width: 17px;
+    border-radius: 100%;
+    background-color: #F0F0F0;
+}
+
+.box1{
+    border: 1px solid #F0F0F0;
+    display: flex;
+    width: 450px;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: start;
+    align-items: center;
+    background-color: #F0F0F0;
+    color: #D3D3D3;
+    
+    
+}
+
+.check{
+    display: none;
+}
+
+.box1:hover{
+    border: 1px solid #44226E;
+    display: flex;
+    width: 450px;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: #000000;
+    background-color: white;
+    cursor: pointer;
+    transition: all 1s;
+
+        .check{
+            display: block; 
+        }
+        
+}
+.container_fileds:hover{
+    .elipse {
+        background-color: #44226E;
+    }
+}
+
+
+
+.container_fileds{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+
+.finance{
+    width: 100%;
+    text-align: center;
+}   
+.finance > img{
+    width: 100% ;
+}
+.credit{
+    width: 100%;
+    text-align: center;
+}
+.credit > img{
+    width: 100%;
+}
+.media > h1{
+    color: #020202;
+    font-size: 2rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.media > img{
+    width: 100%;
+}
+
+.achievments{
+    background-color: #FDF5F8;
+    text-align: center;
+}
+.achievments > h1{
+    color: #000000;
+    font-size: 3rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.achievments > p{
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.achievments > img {
+    width: 100%;
+}
+.apply{
+    background-color: #655F4A;
+   justify-content: center;
+   text-align: center;
+    display: flex;
+    padding: 10px;
+
+}
+.apply > h1{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0 60px;
+    padding: 8px;
+}
+.applyButton{
+    padding: 10px 20px;
+    background-color: #F7D557;
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border-radius: 10px;
+    justify-content: flex-end;
+
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.faq > h1{
+    color: #000000;
+    font-size: 3rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.ques{
+    width: 50%;
+}
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+    border-bottom: 0.5px solid gray;
+    
+}
+.question > h1{
+    color: #000000;
+    font-size: 1.5rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.question > p{
+    color: #000000;
+    font-size: 1.3rem;
+    font-family: "Plus Jakarta Sans", sans-serif;   
+}
+
+.blog{
+    text-align: center;
+    margin: 75px 0;
+}
+.blog > h1{
+    color: #000000;
+    font-size: 3rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.footer{
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+.items > ul{
+    padding: 0;
+}
+.items > ul > li {
+    color: white;
+    font-size: 1rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    list-style-type: none;
+    padding: 15px 0;
+    
+}
+
+.items > h1{
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-family: "Plus Jakarta Sans", sans-serif;
+        /* border-bottom: 2px solid rgb(253, 216, 53);
+        border-width: thick; */
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.items > h1::after{
+    content: "";
+    width: 50px;
+    height: 4px;
+    display: block;
+    background-color: rgb(253, 216, 53) !important;
+}
+.social{
+    text-align: center;
+    padding: 5px 0;
+}
+.cta > img{
+    width: 100%;
+}
+
+
+.btn1{
+    border-radius: 10px;
+    padding: 13px 30px;
+    margin: 35px 0;
+}
+.social > div{
+    margin: 10px 0;
+}
+.social1 > a > img {
+    max-width: 20px;
+    margin: 0 10px;
+    padding: 0 5px;
+}
+
+
+
+
+
+
+
+
+
+.question:hover p {
+    color: #44226E;
+    cursor: pointer;
+}
+
+.answer {
+    display: none;
+    padding: 10px;
+    border-top: 1px solid #F0F0F0;
+    background-color: #FFFFFF;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.question.active + .answer {
+    display: block;
+    transition: all 0.5s;
+}
